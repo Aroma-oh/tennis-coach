@@ -13,7 +13,7 @@ export const Hero = () => {
       </Intro>
       <Table>
         {HERO_DATA.map((el, index) => (
-          <Column key={index} index={index + 1}>
+          <Column key={index}>
             <div>
               <p className='info'>{el.info}</p>
               <p className='strong'>{el.strong}</p>
@@ -46,31 +46,24 @@ const Intro = styled.div`
 `
 
 const Table = styled.div`
-  padding: 36px 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  margin: 36px 0;
 
-  /* display:table;
+  display:table;
   table-layout: fixed;
   border: 1px solid var(--black);
 
   > :last-child {
     border: none;
-  } */
-
-  @media (max-width: 400px) {
-    padding: 21px 15px 0 0;
   }
 `
 
-interface ColumnProps {
-  index: number;
-}
-
-const Column = styled.div<ColumnProps>`
+const Column = styled.div`
+  padding: 24px 0;
   text-align: center;
-  /* display: table-cell;
-  border-right: 1px solid var(--black); */
+
+  display: table-cell;
+  border-right: 1px solid var(--black);
 
   .strong {
     padding: .8rem;
@@ -79,31 +72,9 @@ const Column = styled.div<ColumnProps>`
     font-weight: 600;
   }
 
-  ${({ index }) => index === 1
-    ?
-    `div {
-      padding: 1rem;
-      grid-column: 1 / 2;
-      border: 1px solid black;
-    }`
-    :
-    `div {
-      grid-column: ${index} / ${index + 1};
-      padding: 1rem;
-      border-top: 1px solid black; 
-      border-right: 1px solid black; 
-      border-bottom: 1px solid black;   
-    }`
-  }
-
   @media (max-width: 400px) {
-    div {
-        display:inline;
-        border: none;
-        font-size: 1rem;
-    }
     .strong {
-      font-size: 21px;
+      font-size: 18px;
       margin-left: 0rem;
     }
   }
