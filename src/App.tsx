@@ -1,10 +1,14 @@
-
-
+import { Navbar } from './components/Navbar'
+import { Hero } from './components/Hero'
+import { Feature1 } from './components/Feature1'
+import './global.css'
 function App() {
 
   return (
     <>
-      <h1>Become A Tennis Coach</h1>
+      <Navbar brandName={'BeTe'} buttonText={'등록하기'} />
+      <Hero />
+      <Feature1 />
     </>
   )
 }
