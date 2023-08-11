@@ -9,7 +9,7 @@ export const Navbar = ({ brandName, buttonText }: NavbarProps) => {
     <NavbarStyled>
       <h1 className='title'>{brandName}</h1>
       <div className='button'>
-        <Button buttonText={buttonText} color={false} />
+        <Button buttonText={buttonText} color={false} padding='21px 18px' />
 
       </div>
     </NavbarStyled>)
