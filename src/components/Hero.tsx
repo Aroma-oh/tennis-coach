@@ -53,6 +53,8 @@ const Table = styled.div`
   table-layout: fixed;
   border: 1px solid var(--black);
 
+  background-color: var(--white);
+
   > :last-child {
     border: none;
   }
