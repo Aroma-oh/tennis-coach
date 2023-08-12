@@ -20,7 +20,7 @@ const HereTextStyled = styled.div`
   font-size: 100px;
   line-height: 110%;;
 
-  @media (max-width: 400px) {
+  @media (max-width: 500px) {
     font-size: 50px;
   }
 `
