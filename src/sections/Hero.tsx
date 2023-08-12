@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { HereText } from './HeroText'
-import { Button } from './Button'
+import { HereText } from '../components/HeroText'
+import { Button } from '../components/common/Button'
 
 const HERO_DATA = [{ info: '서울지점', strong: '10 +' }, { info: '수강생', strong: '1,000 +' }, { info: '시간당 수업료', strong: '50,000 +' },]
 export const Hero = () => {
@@ -40,7 +40,7 @@ const Intro = styled.div`
   line-height: 150%;
   word-break: keep-all;
   
-  @media (max-width: 400px) {
+  @media (max-width: 500px) {
     display: none;
   }
 `
@@ -74,7 +74,7 @@ const Column = styled.div`
     font-weight: 600;
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 500px) {
     .strong {
       font-size: 18px;
       margin-left: 0rem;

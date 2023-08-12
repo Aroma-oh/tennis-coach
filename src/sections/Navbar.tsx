@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Button } from './Button';
+import { Button } from '../components/common/Button';
 interface NavbarProps {
   brandName: string;
   buttonText: string;
@@ -25,7 +25,7 @@ const NavbarStyled = styled.header`
 
   border-bottom: 1px solid var(--black);
 
-  @media (max-width: 400px) {
+  @media (max-width: 500px) {
     justify-content: center;
     .button {
       display: none;

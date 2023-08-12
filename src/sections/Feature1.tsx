@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 
-// IoSparklesSharp
 const FEATURE1_DATA = [
   { text: '쾌적한 실내 테니스장', feature: '쾌적함', subText: '쾌적하게 관리되는 실내 테니스장에서 편하게 수업하세요. 날씨에 구애 받지 않고 365일 원하는 날짜에 수업이 가능합니다.' },
   { text: '자유로운 수업시간', feature: '자유로움', subText: 'BETE 제휴 지점은 365일, 24시간 영업합니다. 수강생과 자유롭게 수업시간을 정하고 편한 시간에 방문하세요.' },
