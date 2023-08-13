@@ -25,7 +25,6 @@ const Feature4Styled = styled.section`
     font-size: 21px;
     font-weight: 500;
     padding: 12px 18px;
-    background-color: var(--white);
     border: 1px solid black;
     width: fit-content;
 
