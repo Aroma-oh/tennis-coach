@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300;1,500&family=Noto+Sans+KR:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300;1,500&family=Noto+Sans+KR:wght@100;300;400;500&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400&family=Montserrat+Alternates:ital,wght@1,300;1,500&family=Noto+Sans+KR:wght@100;300;400;500&family=Poiret+One&family=Righteous&display=swap');
+
+@font-face {
+  font-family: 'IBMPlexSansKR-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  /* color */
+  --white: #FFF;
+  --black: #000;
+  --gray: #4f4f4f;
+
+  /* size */
+  --title-size: 28px;
+
+  /* 나중에 수정하기 */
+  font-family: 'Noto Sans KR', 'Pretendard-Regular', 'IBMPlexSansKR-Regular', sans-serif;
+  padding: 0 110px;
+  background-color: #f0f8ff;
+}
+
+.bete {
+  font-family: 'Montserrat Alternates';
+}
+
+.bold-text {
+  font-family: 'Righteous', cursive;
+}
+
+.thin-text {
+  font-family: 'Bellota Text', cursive;
+}
+
+.title {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: var(--title-size);
+}
+
+@media (max-width: 900px) {
+  :root {
+    padding: 0 50px;
+  }
+
+  .title {
+    font-size: calc(var(--title-size) * 0.8);
+  }
+}
+
+@media (max-width: 400px) {
+  :root {
+    padding: 0 15px;
+  }
+
+  .title {
+    font-size: calc(var(--title-size) * 0.8);
+  }
+}
