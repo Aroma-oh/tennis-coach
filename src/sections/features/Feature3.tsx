@@ -6,7 +6,7 @@ import { SlLocationPin } from 'react-icons/sl'
 // PiHandTap
 
 const iconStyle = {
-  backgroundColor: '#359dd989', // 배경 색상 지정
+  backgroundColor: '#359dd989',
   padding: '16px',
   borderRadius: '50%',
   fontSize: '28px',
@@ -17,14 +17,14 @@ export const Feature3 = () => {
   return (
     <Feature3Styled>
       <div className='title'>
-        <div className='text'> BETE는 번거롭지 않습니다. </div>
+        <div className='text'><span className='bete'>BeTe</span>는 번거롭지 않습니다. </div>
         <div className='sub-text'> 간단한 우리만의 수업관리 시스템을 소개합니다.</div>
       </div>
       <div className='info-container'>
         <div className='info'>
           <RxCalendar style={iconStyle} />
           <p className='info-title'>등록</p>
-          <p className='info-text'>BETE 앱/홈페이지에 방문하여 가능한 스케쥴을 등록하세요.</p>
+          <p className='info-text'><span className='bete'>BeTe</span> 앱/홈페이지에 방문하여 가능한 스케쥴을 등록하세요.</p>
         </div>
         <div className='info'>
           <LiaHandPointerSolid style={iconStyle} />
@@ -54,7 +54,7 @@ const Feature3Styled = styled.section`
     padding: 1.2rem 1.5rem;
     font-weight: 700;
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 150%;
   }
   .sub-text {
@@ -78,12 +78,13 @@ const Feature3Styled = styled.section`
     margin: 1rem;
   }
   .info-title {
-    margin: 24px 0 21px 0;
+    margin: 28px 0 21px 0;
     font-size: 18px;
     font-weight: 700;
   }
   .info-text {
     text-align: center;
+    font-size: 18px;
     line-height: 180%;
     color: var(--gray);
   }

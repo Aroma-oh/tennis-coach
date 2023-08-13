@@ -10,7 +10,7 @@ export const Feature1 = () => {
     <Feature1Styled>
       <div className="left">
         <img src='public/feature2.png' />
-        <p> <span className='title'>Bete</span>의 특별함을 소개합니다</p>
+        <p> <span className='bete'>Bete</span>의 특별함을 소개합니다</p>
       </div>
       <div className="right">
         {FEATURE1_DATA.map((el, index) => (
@@ -27,7 +27,7 @@ export const Feature1 = () => {
 }
 
 const Feature1Styled = styled.section`
-  margin: 36px 0;
+  margin: 6vh 0;
   width:100%;
 
   display: flex;
@@ -58,6 +58,7 @@ const Feature1Styled = styled.section`
   .right {
     flex: 1 1 60%;
     border-left: 1px solid var(--black);
+    padding-left: 1.5rem;
     > :last-child {
         padding-bottom: 21px;
       }
@@ -90,9 +91,9 @@ const Feature1Styled = styled.section`
   }  
 
 
-  @media (max-width: 768px) {
+  @media (max-width: 800px) {
     flex-direction: column;
-
+  
     .left {
       margin-bottom: 36px;
     }
@@ -100,6 +101,7 @@ const Feature1Styled = styled.section`
       border-top: 1px solid var(--black);
       border-left: none;
       padding-top: 18px;
+      padding-left: 0;
     }
     .info {
       .text {
@@ -109,6 +111,20 @@ const Feature1Styled = styled.section`
         font-size: 18px;
       }
     }
+  }
 
+  @media (max-width: 500px) {
+    .right {
+      border-top: none;
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 28px;
+    }
+    .sub-text {
+      text-align: center;
+    }
   }
 `

@@ -32,7 +32,7 @@ export const Feature2 = () => {
 
 const Feature2Styled = styled.section`
   padding: 21px 0 ;
-  margin: 10vh 0 5vh 0;
+  margin: 10rem 0 5rem 0;
   width: 100%;
 
   display: flex;
@@ -48,13 +48,14 @@ const Feature2Styled = styled.section`
   overflow-x: hidden; 
   position: relative;
   background: linear-gradient(90deg, rgba(240,248,255,1) 0%, rgba(140,35,35,0) 20%, rgba(215,195,200,0) 80%, rgba(240,248,255,1) 100%);
+  
   span {
     font-size: 28px;
     font-weight: 600;
   }
 
   @media (max-width: 800px) {
-    margin: auto;
+    margin: 5rem 0 1rem 0;
   }
   @media (max-width: 500px) {
     font-size: 14px;
