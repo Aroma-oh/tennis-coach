@@ -6,6 +6,15 @@ interface ButtonProps {
   padding?: string;
   fonsSize?: number;
 }
+
+/**
+ * buttonText: string;
+ * color: boolean;
+ * padding?: string;
+ * fonsSize?: number;
+ */
+
+
 export const Button = ({ buttonText, color, padding, fonsSize }: ButtonProps) => {
   return (
     <ButtonStyled color={color} padding={padding} fonsSize={fonsSize}> {buttonText} </ButtonStyled>
