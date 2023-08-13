@@ -20,7 +20,7 @@ export const Feature2 = () => {
         {Array.from({ length: numImages * 2 }).map((_, index) => (
           <img
             key={index}
-            src='public/Logo.png'
+            src='Logo.png'
             width='60px'
             alt={`Logo ${index}`}
           />

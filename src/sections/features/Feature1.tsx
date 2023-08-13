@@ -9,13 +9,13 @@ export const Feature1 = () => {
   return (
     <Feature1Styled>
       <div className="left">
-        <img src='public/feature2.png' />
+        <img src='feature2.png' />
         <p> <span className='bete'>Bete</span>의 특별함을 소개합니다</p>
       </div>
       <div className="right">
         {FEATURE1_DATA.map((el, index) => (
           <div key={index} className='info'>
-            <div className='feature'><img src='public/sparkle.png' width='18px' /> {el.feature}</div>
+            <div className='feature'><img src='sparkle.png' width='18px' /> {el.feature}</div>
             <p className='text'> {el.text}</p>
             <p className='sub-text'>{el.subText}</p>
           </div>

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Feature4 = () => {
   return (
     <Feature4Styled>
-      <div className='title'><img src='public/sparkle.png' width={24} />&nbsp;시설 미리보기</div>
+      <div className='title'><img src='sparkle.png' width={24} />&nbsp;시설 미리보기</div>
       <div className='image-container'>
         <div
           className='image'
