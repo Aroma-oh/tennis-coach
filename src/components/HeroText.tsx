@@ -10,7 +10,7 @@ export const HereText = () => {
 }
 
 const HereTextStyled = styled.div`
-  padding: 64px 0;
+  padding: 64px 0 0 0;
 
   display: flex;
   flex-direction: column;
