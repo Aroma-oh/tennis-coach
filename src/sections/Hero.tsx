@@ -21,7 +21,7 @@ export const Hero = () => {
           </Column>
         ))}
       </Table>
-      <Button buttonText={'등록하기'} color={true} padding={'24px'}></Button>
+      <Button buttonText={'등록하기'} color={true} padding={'24px'} fonsSize={18}></Button>
     </HeroStyled>
   )
 }
