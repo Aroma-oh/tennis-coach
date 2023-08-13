@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { HereText } from '../components/HeroText'
-import { Button } from '../components/common/Button'
+import { HereText } from 'components/HeroText'
+import { Button } from 'components/Button'
 
 const HERO_DATA = [{ info: '서울지점', strong: '10 +' }, { info: '수강생', strong: '1,000 +' }, { info: '시간당 수업료', strong: '50,000 +' },]
 export const Hero = () => {
