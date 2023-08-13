@@ -1,6 +1,11 @@
-import { Navbar } from './components/Navbar'
-import { Hero } from './components/Hero'
-import { Feature1 } from './components/Feature1'
+import { Navbar } from 'sections/Navbar'
+import { Hero } from 'sections/Hero'
+import { Feature1 } from 'sections/features/Feature1'
+import { Feature2 } from 'sections/features/Feature2'
+import { Feature3 } from 'sections/features/Feature3'
+import { Feature4 } from 'sections/features/Feature4'
+import { Contact } from 'sections/Contact'
+import { Footer } from 'sections/Footer'
 import './global.css'
 function App() {
 
@@ -9,6 +14,11 @@ function App() {
       <Navbar brandName={'BeTe'} buttonText={'등록하기'} />
       <Hero />
       <Feature1 />
+      <Feature2 />
+      <Feature3 />
+      <Feature4 />
+      <Contact />
+      <Footer />
     </>
   )
 }
