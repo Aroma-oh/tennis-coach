@@ -3,8 +3,6 @@ import { RxCalendar } from 'react-icons/rx'
 import { LiaHandPointerSolid } from 'react-icons/lia'
 import { SlLocationPin } from 'react-icons/sl'
 
-// PiHandTap
-
 const iconStyle = {
   backgroundColor: '#359dd989',
   padding: '16px',
