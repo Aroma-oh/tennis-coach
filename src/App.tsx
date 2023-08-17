@@ -6,10 +6,10 @@ import { Feature3 } from 'sections/features/Feature3'
 import { Feature4 } from 'sections/features/Feature4'
 import { Contact } from 'sections/Contact'
 import { Footer } from 'sections/Footer'
-import { GaTracker } from 'GATracker'
+import { GaTracker } from 'GaTracker'
 import './global.css'
 function App() {
-  GaTracker()
+  GaTracker();
   return (
     <>
       <Navbar brandName={'BeTe'} buttonText={'등록하기'} />
