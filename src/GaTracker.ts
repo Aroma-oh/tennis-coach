@@ -1,10 +1,21 @@
 import { useEffect, useState } from "react";
 import ReactGA from "react-ga4";
+import TagManager from 'react-gtm-module';
 
 export const GaTracker = () => {
+  // GTM 설정
+  const gtmId = import.meta.env.VITE_GTM;
+
+  const tagManagerArgs = {
+    gtmId: gtmId
+  }
+
+  TagManager.initialize(tagManagerArgs);
+
+  // GA4 설정
   const [initialized, setInitialized] = useState(false);
   const gaTrackingId = import.meta.env.VITE_GA;
-  console.log(gaTrackingId);
+
 
   // 초기화 (localhost는 무시)
   useEffect(() => {
