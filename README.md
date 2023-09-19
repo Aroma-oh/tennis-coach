@@ -6,7 +6,7 @@
 ![image](https://github.com/Aroma-oh/tennis-coach/assets/115550622/b3ba1dd9-b0c8-4752-8339-a51a5ec0c560)
 
 ### 기술 스택
-* React, TypeScripy, Styled-component
+* React, TypeScript, Styled-component
 ### 진행 기간
 * 23.08.09 ~ 23.08.18
 ### 실행 방법
