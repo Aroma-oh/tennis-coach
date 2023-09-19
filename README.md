@@ -10,10 +10,12 @@
 ### 진행 기간
 * 23.08.09 ~ 23.08.18
 ### 실행 방법
-```
-$ npm install
-$ npm start
-```
+* 배포 링크 : https://tennis-coach.vercel.app/
+* 로컬 실행 
+  ```
+  $ npm install
+  $ npm start
+  ```
 
 ## Demo Video
 |반응형|
