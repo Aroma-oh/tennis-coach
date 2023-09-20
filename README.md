@@ -14,7 +14,7 @@
 * 로컬 실행 
   ```
   $ npm install
-  $ npm start
+  $ npm run dev
   ```
 
 ## Demo Video
